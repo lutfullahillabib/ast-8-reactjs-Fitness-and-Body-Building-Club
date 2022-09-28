@@ -8,7 +8,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 
-const Cart = () => {
+const Cart = ({ items }) => {
+    console.log(items)
+
+    // let totalTime = 0;
+    // for (const times of items) {
+    //     totalTime = totalTime + times.totalTime;
+    // }
 
     const notify = () => toast("Congratulation..!! Activity Completed.!!");
 
@@ -61,7 +67,7 @@ const Cart = () => {
                 <h4 className='text-center'>Exercise Details</h4>
                 <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded'>
                     <h5>Exercise Time</h5>
-                    <h5>200s</h5>
+                    <h5>{items}h</h5>
                 </div>
 
                 <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded'>

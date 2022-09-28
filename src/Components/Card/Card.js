@@ -19,7 +19,7 @@ const Card = (props) => {
                         <h5 className="card-title">Time: {time}</h5>
                         <p className="card-text">{details}</p>
 
-                        <button onClick={() => handleToCart(card)} className='btn btn-light d-block w-100'>Add to list</button>
+                        <button onClick={() => handleToCart(time)} className='btn btn-light d-block w-100'>Add to list</button>
                     </div>
                 </div>
             </div>

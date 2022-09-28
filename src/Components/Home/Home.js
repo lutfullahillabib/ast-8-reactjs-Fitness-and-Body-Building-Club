@@ -12,12 +12,11 @@ const Home = () => {
             .then(data => setCards(data))
     }, []);
 
-    const [item, setItem] = useState([]);
+    const [items, setItem] = useState(0);
 
     const handleToCart = (todo) => {
         console.log(todo);
-        const newItem = [...item, todo];
-        setItem(newItem);
+        setItem(items + todo)
     }
 
     return (
@@ -27,7 +26,7 @@ const Home = () => {
                     <Cards cards={cards} handleToCart={handleToCart}></Cards>
                 </div>
                 <div className='col-3 rounded'>
-                    <Cart></Cart>
+                    <Cart items={items}></Cart>
                 </div>
             </div>
         </div>
