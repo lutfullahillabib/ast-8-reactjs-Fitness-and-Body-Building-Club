@@ -12,13 +12,13 @@ const Card = (props) => {
             <div className="col">
                 <div className="card image">
                     <img className='' src={img} alt="..." />
-                    <div className="card-body">
+                    <div className="card-body bg-black text-white">
                         <h5 className="card-title">{name}</h5>
                         <h5 className="card-title">Age: {age}</h5>
                         <h5 className="card-title">Time: {time}</h5>
                         <p className="card-text">{details}</p>
 
-                        <button className='btn btn-primary d-block w-100'>Add to list</button>
+                        <button className='btn btn-light d-block w-100'>Add to list</button>
                     </div>
                 </div>
             </div>

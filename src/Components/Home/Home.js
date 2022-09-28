@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='col-9'>
                     <Cards cards={cards}></Cards>
                 </div>
-                <div className='col-3'>
+                <div className='col-3 rounded'>
                     <Cart></Cart>
                 </div>
             </div>
