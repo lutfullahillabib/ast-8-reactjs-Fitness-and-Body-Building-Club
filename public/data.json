@@ -4,7 +4,7 @@
     "name": "Power Burn Collection",
     "age": 20,
     "time": 30,
-    "img": "https://ibb.co/HH6pN7D",
+    "img": "https://i.ibb.co/g6SpT9R/1.jpg",
     "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
   },
   {
@@ -12,7 +12,7 @@
     "name": "Curls n' Crunches",
     "age": 25,
     "time": 40,
-    "img": "https://ibb.co/K5ynHz1",
+    "img": "https://i.ibb.co/S6Vnq6J/2.jpg",
     "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
   },
   {
@@ -20,15 +20,15 @@
     "name": "Leg press",
     "age": 30,
     "time": 50,
-    "img": "https://ibb.co/6YRpfF5",
+    "img": "https://i.ibb.co/8b2FBWv/3.jpg",
     "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
   },
   {
     "id": "444",
-    "name": "Deadlift",
+    "name": "Dead-Lift",
     "age": 35,
     "time": 60,
-    "img": "https://ibb.co/R41RxVy",
+    "img": "https://i.ibb.co/sg1XLvb/4.jpg",
     "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
   },
   {
@@ -36,7 +36,7 @@
     "name": "Chest fly",
     "age": 40,
     "time": 45,
-    "img": "https://ibb.co/9Yr80B7",
+    "img": "https://i.ibb.co/pr5By84/5.jpg",
     "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
   },
   {
@@ -44,7 +44,7 @@
     "name": "Shoulder press",
     "age": 28,
     "time": 90,
-    "img": "https://ibb.co/gS5fWDN",
+    "img": "https://i.ibb.co/yFhn98D/6.jpg",
     "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
   }
 ]
