@@ -1,20 +1,22 @@
 import React from 'react';
+import './Card.css'
 
 const Card = (props) => {
+    console.log(props)
 
-    const { id, name, age, time, details, img } = props;
+    const { name, age, time, details, img } = props.card;
 
     return (
         <div>
 
-            <div class="col">
-                <div class="card h-100">
-                    <img src={img} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">{name}</h5>
-                        <h5 class="card-title">Age: {age}</h5>
-                        <h5 class="card-title">Time: {time}</h5>
-                        <p class="card-text">{details.slice(0, 50)}</p>
+            <div className="col">
+                <div className="card image">
+                    <img className='' src={img} alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">{name}</h5>
+                        <h5 className="card-title">Age: {age}</h5>
+                        <h5 className="card-title">Time: {time}</h5>
+                        <p className="card-text">{details}</p>
 
                         <button className='btn btn-primary d-block w-100'>Add to list</button>
                     </div>

@@ -9,7 +9,7 @@ const Cards = (props) => {
             <h2 className='text-white'>
                 Select Your Exercise
             </h2>
-            <div className='row row-cols-1 row-cols-md-3 g-4 text-white '>
+            <div className='row row-cols-1 row-cols-md-3 g-4 '>
                 {
                     cards.map(card => <Card
                         card={card}
