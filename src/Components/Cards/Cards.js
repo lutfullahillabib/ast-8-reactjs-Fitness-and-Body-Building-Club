@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../Card/Card';
 
 const Cards = (props) => {
-    const { cards } = props;
+    const { cards, handleToCart } = props;
 
     return (
         <div className='container'>
@@ -14,6 +14,8 @@ const Cards = (props) => {
                     cards.map(card => <Card
                         card={card}
                         key={card.id}
+
+                        handleToCart={handleToCart}
                     ></Card>)
                 }
             </div>

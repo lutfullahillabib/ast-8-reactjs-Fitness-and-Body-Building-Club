@@ -2,8 +2,9 @@ import React from 'react';
 import './Card.css'
 
 const Card = (props) => {
-    console.log(props)
+    // console.log(props)
 
+    const { handleToCart } = props;
     const { name, age, time, details, img } = props.card;
 
     return (
@@ -18,7 +19,7 @@ const Card = (props) => {
                         <h5 className="card-title">Time: {time}</h5>
                         <p className="card-text">{details}</p>
 
-                        <button className='btn btn-light d-block w-100'>Add to list</button>
+                        <button onClick={() => handleToCart(card)} className='btn btn-light d-block w-100'>Add to list</button>
                     </div>
                 </div>
             </div>
