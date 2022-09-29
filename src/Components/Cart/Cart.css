@@ -1,7 +1,9 @@
 .bg-color {
     background-color: rgb(48, 47, 47);
+    box-shadow: 4px 5px 6px 3px whitesmoke;
+
 }
 
 .sticky-lg-top {
-    top: 50px;
+    top: 35px;
 }

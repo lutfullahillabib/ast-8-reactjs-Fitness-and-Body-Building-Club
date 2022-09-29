@@ -53,7 +53,7 @@ const Cart = ({ timer }) => {
             </div>
 
 
-            <div className='d-flex justify-content-between bg-color p-2 pb-0 my-2 rounded align-items-center'>
+            <div className='d-flex justify-content-between bg-color p-2 pb-0 my-3 rounded align-items-center'>
                 <div>
                     <h4>65kg</h4>
                     <p>Weight</p>
@@ -70,10 +70,10 @@ const Cart = ({ timer }) => {
 
 
             <div>
-                <h4 className='text-center'>
+                <h4 className='text-center mt-4'>
                     Add A Break
                 </h4>
-                <div className='py-2 px-1 text-center'>
+                <div className='pb-2 px-1 text-center'>
                     <button onClick={() => { breaksTimeHandle(10); notify(10) }} className='btn bg-color text-white rounded-5 m-1'>10s</button>
                     <button onClick={() => { breaksTimeHandle(20); notify(20) }} className='btn  bg-color text-white rounded-5 m-1'>20s</button>
                     <button onClick={() => { breaksTimeHandle(30); notify(30) }} className='btn  bg-color text-white rounded-5 m-1'>30s</button>
