@@ -27,7 +27,7 @@ const Cart = ({ timer }) => {
 
 
 
-    console.log(timer)
+    // console.log(timer)
 
     const toastsss = () => {
 
