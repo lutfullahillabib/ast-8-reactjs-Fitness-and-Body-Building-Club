@@ -11,7 +11,7 @@ const Card = (props) => {
         <div>
 
             <div className="col">
-                <div className="card">
+                <div className="card border-0 shadow-lg">
                     <img className='image rounded-top' src={img} alt="..." />
                     <div className="card-body bg-black rounded-bottom text-white">
                         <h5 className="card-title">{name}</h5>

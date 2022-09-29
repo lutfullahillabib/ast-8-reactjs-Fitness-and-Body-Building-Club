@@ -74,11 +74,11 @@ const Cart = ({ timer }) => {
                     Add A Break
                 </h4>
                 <div className='py-2 px-1 text-center'>
-                    <button onClick={() => { breaksTimeHandle(10); notify(10) }} className='btn btn-secondary rounded-5 m-1'>10s</button>
-                    <button onClick={() => { breaksTimeHandle(20); notify(20) }} className='btn btn-secondary rounded-5 m-1'>20s</button>
-                    <button onClick={() => { breaksTimeHandle(30); notify(30) }} className='btn btn-secondary rounded-5 m-1'>30s</button>
-                    <button onClick={() => { breaksTimeHandle(40); notify(40) }} className='btn btn-secondary rounded-5 m-1'>40s</button>
-                    <button onClick={() => { breaksTimeHandle(50); notify(50) }} className='btn btn-secondary rounded-5 m-1'>50s</button>
+                    <button onClick={() => { breaksTimeHandle(10); notify(10) }} className='btn bg-color text-white rounded-5 m-1'>10s</button>
+                    <button onClick={() => { breaksTimeHandle(20); notify(20) }} className='btn  bg-color text-white rounded-5 m-1'>20s</button>
+                    <button onClick={() => { breaksTimeHandle(30); notify(30) }} className='btn  bg-color text-white rounded-5 m-1'>30s</button>
+                    <button onClick={() => { breaksTimeHandle(40); notify(40) }} className='btn  bg-color text-white rounded-5 m-1'>40s</button>
+                    <button onClick={() => { breaksTimeHandle(50); notify(50) }} className='btn  bg-color text-white rounded-5 m-1'>50s</button>
                 </div>
             </div>
 
