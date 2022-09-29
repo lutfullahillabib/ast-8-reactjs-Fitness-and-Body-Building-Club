@@ -4,9 +4,30 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='d-flex container justify-content-center p-3 text-center mx-auto gap-2'>
-            <img className='img' src={logo} alt="logo" />
-            <h1 className='text-white'>Fitness & Body-Building Club</h1>
+
+        <div className='container'>
+
+            <nav className="navbar container navbar-dark bg-dark rounded">
+                <div className="container d-flex justify-content-center justify-content-lg-between align-items-center">
+
+                    <a className="navbar-brand" href='index.html'>
+
+                        <div className='d-flex container justify-content-center justify-content-lg-start text-center mx-auto gap-2'>
+                            <img className='img' src={logo} alt="logo" />
+                            <h2 className='text-white text-wrap a'>Fitness & Body-Building Club</h2>
+                        </div>
+
+                    </a>
+
+
+                    <a className="btn btn-outline-light " href='#blog' >Blog</a>
+
+
+                </div>
+            </nav>
+
+
+
         </div>
     );
 };

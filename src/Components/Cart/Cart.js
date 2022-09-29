@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import profile from '../../profile.png'
 import './Cart.css'
 
@@ -12,6 +12,21 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 
 const Cart = ({ timer }) => {
+
+    const [breaks, setBreaks] = useState('');
+
+    const breaksTimeHandle = (breakTime) => {
+        localStorage.setItem("break-time", breakTime);
+        setBreaks(breakTime);
+    };
+
+    useEffect(() => {
+        const getBreakFromLocalStorage = localStorage.getItem("break-time");
+        setBreaks(getBreakFromLocalStorage);
+    }, []);
+
+
+
     console.log(timer)
 
     const toastsss = () => {
@@ -22,7 +37,7 @@ const Cart = ({ timer }) => {
         )
     }
 
-    // const notify = () => { toast(``) };
+    const notify = (bTime) => { toast(`Break Time: ${bTime}`) };
 
     return (
         <div className='text-white bg-black shadow-lg p-3 rounded sticky-lg-top my-3 my-lg-0'>
@@ -59,11 +74,11 @@ const Cart = ({ timer }) => {
                     Add A Break
                 </h4>
                 <div className='py-2 px-1 text-center'>
-                    <button className='btn btn-secondary rounded-5 m-1'>10s</button>
-                    <button className='btn btn-secondary rounded-5 m-1'>20s</button>
-                    <button className='btn btn-secondary rounded-5 m-1'>30s</button>
-                    <button className='btn btn-secondary rounded-5 m-1'>40s</button>
-                    <button className='btn btn-secondary rounded-5 m-1'>50s</button>
+                    <button onClick={() => { breaksTimeHandle(10); notify(10) }} className='btn btn-secondary rounded-5 m-1'>10s</button>
+                    <button onClick={() => { breaksTimeHandle(20); notify(20) }} className='btn btn-secondary rounded-5 m-1'>20s</button>
+                    <button onClick={() => { breaksTimeHandle(30); notify(30) }} className='btn btn-secondary rounded-5 m-1'>30s</button>
+                    <button onClick={() => { breaksTimeHandle(40); notify(40) }} className='btn btn-secondary rounded-5 m-1'>40s</button>
+                    <button onClick={() => { breaksTimeHandle(50); notify(50) }} className='btn btn-secondary rounded-5 m-1'>50s</button>
                 </div>
             </div>
 
@@ -77,7 +92,7 @@ const Cart = ({ timer }) => {
 
                 <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded align-items-center'>
                     <h5>Break Time</h5>
-                    <h5>15s</h5>
+                    <h5>{breaks}s</h5>
                 </div>
 
                 <button onClick={toastsss} className='btn btn-light d-block mx-auto mt-4'>Activity Completed</button>

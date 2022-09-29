@@ -41,3 +41,17 @@
 body {
   background-color: rgba(0, 0, 0, 0.767);
 }
+
+.a:hover {
+  color: blue !important;
+}
+
+.btn:hover {
+  background-color: blue !important;
+  color: white !important;
+
+}
+
+.btn {
+  font-weight: 700;
+}

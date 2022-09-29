@@ -22,8 +22,12 @@ const Home = () => {
     }
 
     return (
-        <div className='container'>
+        <div>
+
             <div className='row mt-2 m-5'>
+                <h2 className='text-white my-3 col-lg-9 col-12'>
+                    Select Your Exercise
+                </h2>
                 <div className='col-lg-9 col-12'>
                     <Cards cards={cards} handleToCart={handleToCart}></Cards>
                 </div>
