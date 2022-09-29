@@ -40,7 +40,7 @@ const Cart = ({ timer }) => {
     const notify = (bTime) => { toast(`Break Time: ${bTime}`) };
 
     return (
-        <div className='text-white bg-black shadow-lg p-3 rounded sticky-lg-top my-3 my-lg-0'>
+        <div className='text-white bg-black cus-shadow p-3 rounded sticky-lg-top my-3 my-lg-0'>
 
             <div className='d-flex justify-content-between gap-3 align-items-center'>
                 <div className='w-25'>

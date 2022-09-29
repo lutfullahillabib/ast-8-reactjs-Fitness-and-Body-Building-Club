@@ -55,3 +55,8 @@ body {
 .btn {
   font-weight: 700;
 }
+
+
+.cus-shadow {
+  box-shadow: 4px 5px 6px 3px whitesmoke;
+}
