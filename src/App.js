@@ -9,10 +9,11 @@ function App() {
     <div className="App">
       <Header></Header>
       <Home></Home>
-      {/* <Blog></Blog> */}
+      <Blog></Blog>
       <Footer></Footer>
     </div>
   );
 }
 
 export default App;
+

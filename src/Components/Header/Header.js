@@ -5,9 +5,9 @@ import './Header.css'
 const Header = () => {
     return (
 
-        <div className='container'>
+        <div>
 
-            <nav className="navbar container navbar-dark bg-dark rounded">
+            <nav className="navbar navbar-dark bg-dark rounded">
                 <div className="container d-flex justify-content-center justify-content-lg-between align-items-center">
 
                     <a className="navbar-brand" href='index.html'>

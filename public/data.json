@@ -2,49 +2,49 @@
   {
     "id": "111",
     "name": "Power Burn Collection",
-    "age": 20,
+    "age": "20-50",
     "time": 30,
     "img": "https://i.ibb.co/g6SpT9R/1.jpg",
-    "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
+    "details": "Power Burn has 5 calories, zero sugar and provides 160mg of natural caffeine from green tea and green coffee beans. It's packed with amino acids, more electrolytes than leading sports drinks and contains no artificial sweeteners, flavors, or preservatives."
   },
   {
     "id": "222",
     "name": "Curls n' Crunches",
-    "age": 25,
+    "age": "20-50",
     "time": 40,
     "img": "https://i.ibb.co/S6Vnq6J/2.jpg",
-    "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
+    "details": "Like situps, crunches help you build muscle. But unlike situps, they work only the abdominal muscles. This intense muscle isolation makes them a popular exercise for people trying to get six-pack abs. This also makes them ideal for strengthening your core, which includes your lower back muscles and obliques."
   },
   {
     "id": "333",
     "name": "Leg press",
-    "age": 30,
+    "age": "20-50",
     "time": 50,
     "img": "https://i.ibb.co/8b2FBWv/3.jpg",
-    "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
+    "details": "The leg press is a compound weight training exercise in which the individual pushes a weight or resistance away from them using their legs. The term leg press machine refers to the apparatus used to perform this exercise."
   },
   {
     "id": "444",
     "name": "Dead-Lift",
-    "age": 35,
+    "age": "20-50",
     "time": 60,
     "img": "https://i.ibb.co/sg1XLvb/4.jpg",
-    "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
+    "details": "Deadlifting can increase core strength, core stability and improve your posture. Deadlifting trains most of the muscles in the legs, lower back and core. These are all muscles responsible for posture, which will help keep your shoulders, spine, and hips in alignment."
   },
   {
     "id": "555",
     "name": "Chest fly",
-    "age": 40,
+    "age": "20-50",
     "time": 45,
     "img": "https://i.ibb.co/pr5By84/5.jpg",
-    "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
+    "details": "The dumbbell chest fly can help open up your chest muscles. Chest openers may help reduce upper back pain, increase range of motion, and reduce tightness in the upper body. If you're doing dumbbell chest flies as a way to open up your chest muscles, consider using lighter weights, or even no weights."
   },
   {
     "id": "666",
     "name": "Shoulder press",
-    "age": 28,
+    "age": "20-50",
     "time": 90,
     "img": "https://i.ibb.co/yFhn98D/6.jpg",
-    "details": "Choose from dozens of programs designed by your favorite trainers. Work out at the gym, at home, or anywhere life takes you."
+    "details": "The shoulder press is one of the best exercises for strengthening your shoulders and upper back. The biggest benefactor of the shoulder press is the front portion of your shoulder muscle (anterior deltoid) but you'll also be working out your deltoids, triceps, trapezius and pecs."
   }
 ]
