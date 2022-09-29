@@ -11,13 +11,13 @@ const Card = (props) => {
         <div>
 
             <div className="col">
-                <div className="card image">
-                    <img className='' src={img} alt="..." />
-                    <div className="card-body bg-black text-white">
+                <div className="card">
+                    <img className='image rounded-top' src={img} alt="..." />
+                    <div className="card-body bg-black rounded-bottom text-white">
                         <h5 className="card-title">{name}</h5>
                         <h5 className="card-title">Age: {age}</h5>
                         <h5 className="card-title">Time: {time}</h5>
-                        <p className="card-text">{details}</p>
+                        <p className="card-text">{details.slice(0, 100) + '...'}</p>
 
                         <button onClick={() => handleToCart(time)} className='btn btn-light d-block w-100'>Add to list</button>
                     </div>

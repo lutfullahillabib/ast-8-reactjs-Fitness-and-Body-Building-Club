@@ -12,21 +12,23 @@ const Home = () => {
             .then(data => setCards(data))
     }, []);
 
-    const [items, setItem] = useState(0);
 
-    const handleToCart = (todo) => {
-        console.log(todo);
-        setItem(items + todo)
+    const [timer, setTimer] = useState(0);
+
+    const handleToCart = (todoTime) => {
+        console.log(todoTime);
+        const totalTime = timer + todoTime;
+        setTimer(totalTime);
     }
 
     return (
         <div className='container'>
-            <div className='row'>
-                <div className='col-9'>
+            <div className='row mt-2 m-5'>
+                <div className='col-lg-9 col-12'>
                     <Cards cards={cards} handleToCart={handleToCart}></Cards>
                 </div>
-                <div className='col-3 rounded'>
-                    <Cart items={items}></Cart>
+                <div className='col-lg-3 col-12 rounded'>
+                    <Cart timer={timer}></Cart>
                 </div>
             </div>
         </div>

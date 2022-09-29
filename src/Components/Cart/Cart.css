@@ -1,3 +1,7 @@
 .bg-color {
     background-color: rgb(48, 47, 47);
 }
+
+.sticky-lg-top {
+    top: 50px;
+}

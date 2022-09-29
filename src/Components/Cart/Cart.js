@@ -1,30 +1,35 @@
 import React from 'react';
-import logo from '../../profile.png'
+import profile from '../../profile.png'
 import './Cart.css'
+
+import Swal from 'sweetalert2';
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 
-const Cart = ({ items }) => {
-    console.log(items)
+const Cart = ({ timer }) => {
+    console.log(timer)
 
-    // let totalTime = 0;
-    // for (const times of items) {
-    //     totalTime = totalTime + times.totalTime;
-    // }
+    const toastsss = () => {
+        Swal.fire(
+            'Congratulation..!!',
+            'Activity Completed.!!',
+            'success'
+        )
+    }
 
-    const notify = () => toast("Congratulation..!! Activity Completed.!!");
+    // const notify = () => { toast(``) };
 
     return (
-        <div className='text-white bg-black shadow-lg p-3 rounded'>
+        <div className='text-white bg-black shadow-lg p-3 rounded sticky-lg-top my-3 my-lg-0'>
 
-
-            <div className='d-flex justify-content-between gap-3'>
+            <div className='d-flex justify-content-between gap-3 align-items-center'>
                 <div className='w-25'>
-                    <img className='w-100 rounded-circle' src={logo} alt="" />
+                    <img className='w-100 rounded-circle' src={profile} alt="" />
                 </div>
                 <div>
                     <h5>Md. Lutfllahil Labib</h5>
@@ -33,7 +38,7 @@ const Cart = ({ items }) => {
             </div>
 
 
-            <div className='d-flex justify-content-between bg-color p-2 pb-0 my-2 rounded'>
+            <div className='d-flex justify-content-between bg-color p-2 pb-0 my-2 rounded align-items-center'>
                 <div>
                     <h4>65kg</h4>
                     <p>Weight</p>
@@ -65,17 +70,17 @@ const Cart = ({ items }) => {
 
             <div className='py-2'>
                 <h4 className='text-center'>Exercise Details</h4>
-                <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded'>
+                <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded align-items-center'>
                     <h5>Exercise Time</h5>
-                    <h5>{items}h</h5>
+                    <h5>{timer}h</h5>
                 </div>
 
-                <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded'>
+                <div className='d-flex justify-content-between bg-color pb-1 p-2 my-2 rounded align-items-center'>
                     <h5>Break Time</h5>
                     <h5>15s</h5>
                 </div>
 
-                <button onClick={notify} className='btn btn-light d-block mx-auto mt-4'>Activity Completed</button>
+                <button onClick={toastsss} className='btn btn-light d-block mx-auto mt-4'>Activity Completed</button>
                 <ToastContainer />
 
             </div>
